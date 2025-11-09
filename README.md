@@ -9,3 +9,18 @@
 
 Google Colab - облачная платформа для разработки и выполнения Python-кода в браузере.
 
+![Скриншот 1](https://github.com/Vladislav-JB/computer-vision/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD1.jpg?raw=true)
+![Скриншот 2](https://github.com/Vladislav-JB/computer-vision/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD2.jpg?raw=true)
+
+По методу, переводим изображение в оттенки серого. Это упрощает обработку и выделение объектов, так как чёрно-белое изображение содержит меньше данных.
+
+![Скриншот 3](https://github.com/Vladislav-JB/computer-vision/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD3.jpg?raw=true)
+
+Применяем фильтр Гаусса для устранения мелких шумов и подготовки изображения к детектированию объектов.
+
+![Скриншот 4](https://github.com/Vladislav-JB/computer-vision/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD4.jpg?raw=true)
+
+Для определения формы, например, прямоугольника или круга, мы анализируем количество углов. Если углов четыре, то это четырёхугольник. Для круга используется формула окружности (радиус и центр).
+
+![Скриншот 5](https://github.com/Vladislav-JB/computer-vision/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD5.jpg?raw=true)
+
